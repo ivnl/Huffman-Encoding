@@ -1,0 +1,15 @@
+preOrder Traversal:
+
+chStr: gdafbce Probability: 100 Left Char: gdafbc Right Char: e 
+chStr: gdafbc Probability: 40 Next Char: e Left Char: gd Right Char: afbc 
+chStr: gd Probability: 17 Next Char: afbc Left Char: g Right Char: d 
+chStr: g Probability: 7 Next Char: d 
+chStr: d Probability: 10 Next Char: afb 
+chStr: afbc Probability: 23 Next Char: gdafbc Left Char: afb Right Char: c 
+chStr: afb Probability: 11 Next Char: c Left Char: a Right Char: fb 
+chStr: a Probability: 5 Next Char: fb 
+chStr: fb Probability: 6 Next Char: g Left Char: f Right Char: b 
+chStr: f Probability: 3 Next Char: b 
+chStr: b Probability: 3 Next Char: a 
+chStr: c Probability: 12 Next Char: gd 
+chStr: e Probability: 60 Next Char: gdafbce 

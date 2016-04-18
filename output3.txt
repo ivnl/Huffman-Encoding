@@ -1,0 +1,12 @@
+Debug File 
+
+Unsorted List: a5 a 5 b3 b 3 c12 c 12 d10 d 10 e60 e 60 f3 f 3 g7 g 7 
+
+Sorted List: listHead -->(dummy, 0, f)-->(f, 3, b)-->(b, 3, a)-->(a, 5, g)-->(g, 7, d)-->(d, 10, c)-->(c, 12, e)-->(e, 60)-->null
+
+chStr: fb Probability: 6 Left Char: f Right Char: b 
+chStr: afb Probability: 11 Left Char: a Right Char: fb 
+chStr: gd Probability: 17 Left Char: g Right Char: d 
+chStr: afbc Probability: 23 Left Char: afb Right Char: c 
+chStr: gdafbc Probability: 40 Left Char: gd Right Char: afbc 
+chStr: gdafbce Probability: 100 Left Char: gdafbc Right Char: e 
